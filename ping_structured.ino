@@ -50,7 +50,7 @@ void loop()
 }
 
 //Initializes the pin of the UltraSonic sensor
-void initPing(struct Ping sensor,unsigned int trigPin, unsigned int echoPin)
+void initPing(struct Ping &sensor,unsigned int trigPin, unsigned int echoPin)
 {
  sensor.trig = trigPin;
  sensor.echo = echoPin;
